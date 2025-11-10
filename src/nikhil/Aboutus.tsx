@@ -5,6 +5,8 @@ export default function Aboutus() {
     <div>
 
         <Header/>
+
+        About Us
     </div>
   )
 }

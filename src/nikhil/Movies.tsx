@@ -55,17 +55,12 @@ export default function Movies() {
         (i)=>
             <tr>
         <td>{i.Title}</td>
-        <td>{i.Poster}</td>
+        <td><img src={i.Poster} /></td>
         <td>{i.Runtime}</td>
         <td>{i.Year}</td>
             </tr>
     )}
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
+    
   </tbody>
 </table>  
     </div>
