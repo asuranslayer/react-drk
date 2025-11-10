@@ -1,12 +1,11 @@
+
 import Header from './Header'
 
-export default function Home() {
+export default function MyHome() {
   return (
     <div>
 
-    <Header/>
-
-    Home Page
+<Header />
 
     </div>
   )

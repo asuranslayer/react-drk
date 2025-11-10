@@ -2,9 +2,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Aboutus from './nikhil/Aboutus'
-import ContactUs from './nikhil/contactUs'
-import Home from './nikhil/home'
-import Movies from './nikhil/movies'
+import ContactUs from './nikhil/ContactUs'
+
+import Movies from './nikhil/Movies'
+import MyHome from './nikhil/MyHome'
 
 
 
@@ -15,7 +16,7 @@ export default function App() {
 
       <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<MyHome />} />
             <Route path="/about" element={<Aboutus />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/movies" element={<Movies />} />
