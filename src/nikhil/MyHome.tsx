@@ -6,7 +6,7 @@ export default function MyHome() {
     <div>
 
 <Header />
-
+        my home
     </div>
   )
 }

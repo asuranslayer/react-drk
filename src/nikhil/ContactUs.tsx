@@ -5,7 +5,7 @@ export default function ContactUs() {
     <div>
 
     <Header/>
-
+        contact me
     </div>
   )
 }
