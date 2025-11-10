@@ -1,9 +1,12 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './nikhil/home'
+
 import Aboutus from './nikhil/Aboutus'
 import ContactUs from './nikhil/contactUs'
+import Home from './nikhil/home'
 import Movies from './nikhil/movies'
+
+
 
 export default function App() {
   return (
